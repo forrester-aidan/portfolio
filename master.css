@@ -9,6 +9,10 @@ body {
     font-size: 22px;
 }
 
+button {
+    background-color: #81B3C4;
+}
+
 p {
     padding-left: 10%;
     padding-right: 10%;
