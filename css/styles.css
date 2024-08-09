@@ -1,0 +1,116 @@
+
+body {
+    background-color: #f0e8df;
+    text-align: center;
+}
+
+#back-button {
+    text-align: left;
+}
+
+#navigation {
+    position: sticky;
+    background-color: #f0e8df;
+    height: 70px;
+    display: flex;
+    border-bottom: 3px solid #ab6060;
+    cursor: default;
+}
+
+.nav-button {
+    padding: 25px 0;
+    width: 175px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: 'Raleway';
+    color: #ab6060;
+}
+
+#home-wrapper {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#home-button {
+    width: 100px;
+    font-size: 35px;
+    padding: 15px 0;
+    padding-left: 20px;
+    color: #ab6060;
+}
+
+#other-pages-wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title-wrapper {
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#home-background {
+    width: 100%;
+    max-height: 700px;
+    opacity: 0.8;
+    filter: brightness(10%);
+}
+
+#title {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 5%;
+    padding-right: 40%;
+    font-family: 'Raleway';
+    font-size: 80px;
+    color: white;
+    align-items: center;
+}
+
+#intro-content {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 40%;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    color: white;
+}
+
+#contact-button {
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #ab6060;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    border: 1px solid #ab6060;
+    border-radius: 10px;
+}
+
+.boxes {
+    border-color: red;
+    border-radius: 25%;
+    border-style: groove;
+}
+
+#icon {
+    text-align: left;
+}

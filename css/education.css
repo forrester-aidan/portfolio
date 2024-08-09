@@ -1,0 +1,137 @@
+body {
+  background-color: #f0e8df;
+  text-align: center;
+}
+
+#back-button {
+  text-align: left;
+}
+
+#navigation {
+  position: sticky;
+  background-color: #f0e8df;
+  height: 70px;
+  display: flex;
+  border-bottom: 3px solid #5e5d5c;
+  cursor: default;
+}
+
+.nav-button {
+  padding: 25px 0;
+  width: 175px;
+  vertical-align: middle;
+  font-size: 18px;
+  font-family: 'Raleway';
+  color: #ab6060;
+}
+
+#home-wrapper {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#home-button {
+  width: 100px;
+  font-size: 35px;
+  padding: 15px 0;
+  padding-left: 20px;
+  color: #ab6060;
+}
+
+#other-pages-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-wrapper {
+  display: flex;
+  margin-top: 30px;
+  gap: 60px;
+}
+
+.college-wrapper, .hs-wrapper {
+  flex: 1;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.college-wrapper {
+  margin-left: 30px;
+}
+
+.top-box-wrapper {
+  display: flex;
+  height: 60px;
+}
+
+.top-box-title {
+  flex: 2;
+  font-family: 'Raleway';
+  font-size: 20px;
+  text-align: left; 
+  margin-left: 20px;
+}
+
+.top-box-data {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: 'Merriweather';
+  font-size: 16px;
+}
+
+.school-descriptor {
+  text-align: left;
+  align-items: top;
+  margin-left: 25px;
+  font-style: italic;
+  font-family: 'Merriweather';
+  font-size: 12px;
+}
+
+.middle-data-wrapper {
+  display: flex;
+}
+
+.description-wrapper {
+  flex: 4;
+  margin-left: 10px;
+  text-align: left;
+}
+
+#description-wrapper-title {
+  font-size: 18px;
+  font-family: 'Raleway';
+}
+
+.classes-wrapper {
+  flex: 3;
+  margin-right: 10px;
+}
+
+#classes-wrapper-title {
+  font-size: 18px;
+  font-family: 'Raleway'; 
+}
+
+#classes-wrapper-courses {
+  font-family: 'Merriweather';
+  font-size: 13px;
+}
+
+#classes-wrapper-courses li {
+  padding: 8px;
+  font-weight: bolder;
+  color: #ab6060;
+}
+
+.hs-wrapper {
+  margin-right: 30px;
+}
