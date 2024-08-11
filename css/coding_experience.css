@@ -79,6 +79,8 @@ a {
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
+  font-family: 'Merriweather';
+  font-size: 12px;
 }
 
 .grid {
@@ -97,4 +99,8 @@ a {
   letter-spacing: 2px;
   border: 1px solid #ab6060;
   border-radius: 10px;
+}
+
+.project:hover {
+  cursor: pointer;
 }
