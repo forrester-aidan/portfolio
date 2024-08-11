@@ -54,7 +54,7 @@ a {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  width: 400px;
+  width: 450px;
   height: 150px;
   outline: none;
   font-family: 'Raleway';
@@ -72,15 +72,16 @@ a {
 
 .content {
   display: none;
-  width: 400px;
+  width: 420px;
   overflow: hidden;
   background-color: #f1f1f1;
-  height: 400px;
+  height: 500px;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
   font-family: 'Merriweather';
   font-size: 12px;
+  padding: 15px;
 }
 
 .grid {
