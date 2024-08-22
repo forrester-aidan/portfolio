@@ -111,6 +111,11 @@ a {
   font-family: 'Raleway';
 }
 
+#description-wrapper-info {
+  font-size: 14px;
+  font-family: 'Raleway';
+}
+
 .classes-wrapper {
   flex: 3;
   margin-right: 10px;
