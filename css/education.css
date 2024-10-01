@@ -59,10 +59,17 @@ a {
   border: 3px solid black;
   border-radius: 25px;
   background-color: white;
+  opacity: 0.2;
 }
 
 .college-wrapper {
   margin-left: 30px;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.college-wrapper:hover {
+  opacity: 1;
+  transform: translateY(-10px)
 }
 
 .top-box-wrapper {
@@ -139,4 +146,10 @@ a {
 
 .hs-wrapper {
   margin-right: 30px;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.hs-wrapper:hover {
+  opacity: 1;
+  transform: translateY(-10px)
 }
